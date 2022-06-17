@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+  },
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remark": "^14.0.1",
+    "remark-html": "^15.0.0"
+  }
+}
