@@ -1,11 +1,11 @@
 #title in header
-title: "Welcome"
+title: "Damali Boyd"
 
 #main info
 #owner
 owner: "I am Damali Boyd"
-email: test@test.test
-info: "A software engineer and artist from Southeastern United States"
+#email: test@test.test
+info: "A software engineer and artist from Southeastern United States."
 #description
 desc: "Welcome to my little corner of the internet. Most post will be about programming and art. In addition to that, I am also learning philosophy, rhetoric, and working on my analytical skills so there will be posts about that as well."
 
@@ -19,12 +19,12 @@ max_post: 4
 
 # Colors use hex color without #
 # Theme color
-tcolor: 0FA0CE
+tcolor: 326273
 
 # Define path to user css
 #(could be also located outside of theme)
 # Relative to source/ directory
-usercss: css/user.css
+#usercss: css/user.css
 
 # social profile at the footer/bottom
 footer: true
@@ -37,8 +37,8 @@ instagram:
 
 # Misc
 nanobar: /js/nanobar.min.js
-switch_light: ☀️
-switch_dark: 🌑
+switch_light: ⬜
+switch_dark: ⬛
 
 # favicon
 favicon: /images/favicon.png
